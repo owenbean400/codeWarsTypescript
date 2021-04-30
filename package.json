@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "CodeWars from OwenBean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenbean400/codeWarsTypescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "codewars"
+  ],
+  "author": "Owen Bean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owenbean400/codeWarsTypescript/issues"
+  },
+  "homepage": "https://github.com/owenbean400/codeWarsTypescript#readme"
+}
