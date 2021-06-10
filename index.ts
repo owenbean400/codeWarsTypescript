@@ -14,6 +14,7 @@ import { listSquared } from './challenges/listSquared'
 import { findOdd } from './challenges/findOdd';
 import { humanReadable } from './challenges/humanReadableTime';
 import { sumOfInterval } from './challenges/sumInterval';
+import { mix } from './challenges/stringsMix';
 
 run();  
 
@@ -57,6 +58,7 @@ function run(): void {
     //console.log("reverting: " + fromBase64(toBase64("Man is distinguished, not only by his reason, but by this singular passion from other animals, which is a lust of the mind, that by a perseverance of delight in the continued and indefatigable generation of knowledge, exceeds the short vehemence of any carnal pleasure.")));
     //console.log("fromBase64: " + fromBase64("TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieSB0aGlzIHNpbmd1bGFyIHBhc3Npb24gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBhIGx1c3Qgb2YgdGhlIG1pbmQsIHRoYXQgYnkgYSBwZXJzZXZlcmFuY2Ugb2YgZGVsaWdodCBpbiB0aGUgY29udGludWVkIGFuZCBpbmRlZmF0aWdhYmxlIGdlbmVyYXRpb24gb2Yga25vd2xlZGdlLCBleGNlZWRzIHRoZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4="))
     //console.log(toBase64("this is a string!!"));
-    console.log(sumOfInterval([[1, 4], [7, 10], [3, 5]]))
-    console.log(sumOfInterval([[1, 5], [6, 10]]));
+    //console.log(sumOfInterval([[1, 4], [7, 10], [3, 5]]))
+    //console.log(sumOfInterval([[1, 5], [6, 10]]));
+    console.log(mix("LlleeFFoo", "rj"))
 }
